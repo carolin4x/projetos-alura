@@ -1,0 +1,68 @@
+body {
+    color: white;
+    background: rgba(22, 235, 132, 0.683);
+    margin: 0px;
+    font-family: "Chakra Petch", sans-serif;
+    margin-bottom: 100px;
+}
+
+header {
+    border-bottom: solid 2px rgb(85, 78, 3);
+    padding: 20px;
+    font-size: 32px;
+    color: rgb(85, 78, 3);
+}
+
+section {
+    background: rgb(4, 95, 97);
+    padding-bottom: 80px;
+    padding-top: 80px;
+    display: flex;
+    justify-content: center;
+}
+
+/*
+código que não utilizei, pois preferi a formatação com o section.
+.chamada { 
+}
+*/
+
+.chamada-texto {
+    margin-right: 5%;
+}
+
+h1 {
+    font-size: 40px;
+}
+
+p {
+    font-size: 20px;
+}
+
+.categoria-videos {
+    display: flex;
+    overflow-x: auto;
+    gap: 10px;
+}
+
+.categoria {
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 50px;
+}
+
+/* código escondido */
+
+.categoria-videos img {
+    opacity: 0.5;
+    height: 200px;
+}
+
+.categoria-videos img:hover {
+    opacity: 1.0;
+    border: 3px solid black;
+}
+
+.categoria h2 {
+    color: rgb(247, 183, 87)
+}
